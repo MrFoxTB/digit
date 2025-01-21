@@ -26,9 +26,9 @@
         //Сравнение введенного числа с загаданным
         if (userGuess === secretNumber){
             resultDiv.textContent = "Ты угодал";}
-        else if (userGuess === secretNumber){
+        else if (userGuess < secretNumber){
             resultDiv.textContent = "Ты не угодал";}
-        else if (userGuess === secretNumber){
+        else if (userGuess > secretNumber){
             resultDiv.textContent = "Слишком много";}
         else{resultDiv.textContent = "Напеши корректное число";} 
     }
